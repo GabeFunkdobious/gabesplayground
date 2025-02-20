@@ -1,0 +1,66 @@
+/* Reset some default browser styles */
+* {
+    margin: 4px;
+    padding: 2px;
+    box-sizing: border-box;
+}
+
+/* Set a base font size and family for the document */
+body {
+    font-family: 'Days', sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+    color: #333;
+    background-color: #c8c8c8;
+}
+
+/* Style for headings */
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Straider', sans-serif;
+    font-size: 18px;
+    margin-top: 1rem;
+}
+
+h1 {
+    font-size: 30px;
+    margin: 0;
+    padding: 10px;
+    text-shadow: 4px 4px 0 rgb(125, 125, 125);
+}
+
+/* Style for paragraphs */
+p {
+    margin: 0.5rem;
+}
+
+/* Style for links */
+a {
+    color: #5ca127;
+    text-decoration: none;
+    transition: text-shadow 0.4s ease-in-out; /* Add this line for transition effect */
+}
+
+a:hover {
+    text-shadow: 0 0 8px rgba(92, 161, 39, 0.8); /* Add this line for glowing effect */
+}
+
+/* Container class for layout */
+.container {
+    width: 80%;
+    margin: 0 auto;
+    padding: 1rem;
+}
+
+/* Basic button styling */
+button {
+    background-color: #007BFF;
+    color: white;
+    border: none;
+    padding: 0.5rem 1rem;
+    cursor: pointer;
+    border-radius: 4px;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
